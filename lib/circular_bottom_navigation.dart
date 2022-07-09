@@ -164,7 +164,7 @@ class _CircularBottomNavigationState extends State<CircularBottomNavigation>
     // This is the circle handle
     children.add(
       Positioned(
-        child: Container(
+        child: SizedBox(
           width: widget.circleSize,
           height: widget.circleSize,
           child: Stack(
@@ -181,7 +181,7 @@ class _CircularBottomNavigationState extends State<CircularBottomNavigation>
                           topLeft: Radius.circular(widget.circleSize / 2),
                           topRight: Radius.circular(widget.circleSize / 2),
                         ),
-                        color: widget.barBackgroundColor,
+                        // color: widget.barBackgroundColor,
                         boxShadow: widget.backgroundBoxShadow,
                       ),
                     ),
@@ -194,7 +194,7 @@ class _CircularBottomNavigationState extends State<CircularBottomNavigation>
                           bottomLeft: Radius.circular(widget.circleSize / 2),
                           bottomRight: Radius.circular(widget.circleSize / 2),
                         ),
-                        color: widget.barBackgroundColor,
+                        // color: widget.barBackgroundColor,
                       ),
                     ),
                   ),

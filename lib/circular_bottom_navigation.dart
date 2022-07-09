@@ -139,12 +139,9 @@ class _CircularBottomNavigationState extends State<CircularBottomNavigation>
     List<Widget> children = [];
 
     // This is the full view transparent background (have free space for circle)
-    children.add(Container(
+    children.add(SizedBox(
       width: fullWidth,
       height: fullHeight,
-      decoration: BoxDecoration(
-        color: Color.fromARGB(33, 0, 0, 0),
-      ),
     ));
 
     // This is the bar background (bottom section of our view)

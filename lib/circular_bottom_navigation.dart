@@ -143,7 +143,7 @@ class _CircularBottomNavigationState extends State<CircularBottomNavigation>
       width: fullWidth,
       height: fullHeight,
       decoration: BoxDecoration(
-        color: Colors.redAccent,
+        color: Colors.transparent,
       ),
     ));
 

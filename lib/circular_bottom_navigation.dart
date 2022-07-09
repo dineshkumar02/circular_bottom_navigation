@@ -141,11 +141,11 @@ class _CircularBottomNavigationState extends State<CircularBottomNavigation> wit
         child: Container(
           width: fullWidth,
           height: widget.barHeight,
-          decoration: BoxDecoration(
-            shape: BoxShape.rectangle,
-            color: widget.barBackgroundColor,
-            boxShadow: widget.backgroundBoxShadow,
-          ),
+          // decoration: BoxDecoration(
+          //   shape: BoxShape.rectangle,
+          //   color: widget.barBackgroundColor,
+          //   boxShadow: widget.backgroundBoxShadow,
+          // ),
         ),
         top: fullHeight - widget.barHeight,
         left: 0,
@@ -173,7 +173,7 @@ class _CircularBottomNavigationState extends State<CircularBottomNavigation> wit
                           topRight: Radius.circular(widget.circleSize / 2),
                         ),
                         color: widget.barBackgroundColor,
-                        boxShadow: widget.backgroundBoxShadow,
+                        // boxShadow: widget.backgroundBoxShadow,
                       ),
                     ),
                   ),
